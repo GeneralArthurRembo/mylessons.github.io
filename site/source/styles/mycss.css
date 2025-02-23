@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Grechen Fuemen');
+
+.sidebar {
+    font-family: Grechen Fuemen, serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #000;
+}
+
+body {
+    background: linear-gradient(180deg, #0e19af 0%, #040326 100%);
+}
+
+.nav-link {
+    color: aqua;
+}
+
+.nav-link.active {
+    color: blueviolet;
+}
+
+.navbar-toggler {
+    background-color: aqua;
+}
+
+img {
+    margin-top: 10px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+}
+
+.card {
+    margin-bottom: 2em;
+    background: linear-gradient(270deg, #0e19af 0%, #040326 100%);
+    color: aqua;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card a {
+    color: #fff;
+    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+    text-decoration: none;
+}
+
+.sidebar {
+    background: linear-gradient(90deg, #0e19af 0%, #040326 100%);
+    color: aqua;
+}
+
+.slide-text {
+    color: aqua;
+    text-shadow: 0 0 10px #0f0;
+    margin: auto auto;
+    font-size: 24px;
+}
+
+footer {
+    border-top-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+}
+
+.footer-text {
+    color: aqua;
+    margin: auto 0;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-text>a {
+    color: aqua;
+
+    text-decoration: none;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: aqua;
+}
+
+.call {
+    animation: code 3s linear 3s 100 normal none;
+}
+
+@keyframes code {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    10% {
+        transform: rotate(8deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-10deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-8deg);
+    }
+
+    90% {
+        transform: rotate(8deg);
+    }
+}
